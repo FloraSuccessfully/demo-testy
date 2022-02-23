@@ -23,15 +23,17 @@
         grid-row: 1/ span 1;
     }
 
+    .site-content__card {
+        text-align: center;
+        width: 94%;
+        justify-content: stretch;
+        
+    }
+
     .site-content__card img {
        display: none;
     } 
 
-     .site-content__card {
-         text-align: center;
-     }
-
-    
     .card-title {
         font-size: 1.2rem;
         color: rgb(109, 105, 105);
@@ -52,8 +54,12 @@
         left: 20%;
     }
 
-
-
-
-
+    .services-section {
+        margin-top: -20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 44%);
+        grid-template-rows: 30vh 30vh;
+        gap: 4% 5%;
+    }
 }
