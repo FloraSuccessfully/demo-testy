@@ -67,6 +67,7 @@
 }
 
 .site-content__img img{
+    width: 100%;
     grid-column: 1/ span 1;
     grid-row: 1/ span 2;
 }
@@ -118,9 +119,10 @@
 }
 
 .site-content__card img {
+    width: 220px;
     position: absolute;
-    top: 22px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
 }
 
 /* Services section */
