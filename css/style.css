@@ -111,6 +111,7 @@
     border: 1px solid rgb(158, 152, 152);
     background-color: rgb(192, 181, 181);
     box-shadow: 3px 3px 7px rgb(109, 105, 105);
+    transition: all 0.2s ease;
 }
 
 .site-content__card a:hover {
@@ -146,6 +147,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.4s ease;
+}
+
+.services-type:hover {
+    transform: scale(1.05);
 }
 
 .services-type__title {
